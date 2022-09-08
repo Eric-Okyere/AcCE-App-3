@@ -1,0 +1,339 @@
+
+body{
+  background-color: darkblue;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+
+  
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .phot{
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    border-radius:18vh;
+   left: 1vh;
+  }
+
+  .pic1{
+    
+    width: 100% !important;
+    height: 87vh !important;
+  }
+ 
+  .yep{
+    width: 100% !important;
+    height: 80vh !important;
+  }
+
+ .welcome{
+  position: relative;
+  top: -20vh;
+ }
+
+  h3{
+    color: blue;
+  }
+  .colour{
+    color: black;
+  }
+
+  .homedropdown{
+    background-color: darkblue !important;
+  }
+ .dropdown-menu{
+  --bs-dropdown-color: white;
+    --bs-dropdown-bg: darkblue;
+    --bs-dropdown-link-color: white;
+ }
+
+
+ .label1{
+  color: white;
+ }
+
+ .music{
+  position: relative;
+  top: 3vh;
+ }
+
+.cardvid{
+  margin: 10px;
+  
+}
+
+.vidcont{
+  width: fit-content;
+}
+
+.header{
+  color: white;
+  text-align: center;
+}
+
+.vid1{
+  height: 100%;
+}
+
+.smalldiv{
+  display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+    animation: App-logo2-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo2-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+.footer{
+  position: relative;
+  top: 5vh;
+  background-color: black;
+  color: white;
+ 
+}
+
+.photo{
+  width: 15vh;
+  position: relative;
+  border-radius:25vh;
+  height: 15vh;
+  left: 2vh;
+}
+
+.wat{
+  width: 6vh;
+  height: 6vh;
+  border-radius: 2vh;
+  margin: 2vh;
+  position: relative;
+  left: -2vh;
+}
+.wat:hover{
+  transform:translateY(-5px);
+}
+
+.sosname{
+  color: black;
+  position: relative;
+  top: 2vh;
+  margin: 2px;
+}
+.lab{
+  position: relative;
+  top: 3vh;
+  color: white;
+}
+
+.insta{
+  width: 6vh;
+  margin-right: 2vh;
+  margin-bottom: 5px;
+  background-color: yellowgreen;
+}
+
+.insta:hover{
+  transform:translateY(-5px);
+}
+
+.lab1{
+  position: relative;
+  left: 2vh;
+  top: 1px;
+  color: white;
+}
+.lab2{
+  position: relative;
+  left: 4vh;
+  top: 1vh;
+  color: white;
+}
+.lab3{
+  position: relative;
+  left: 2vh;
+}
+
+.face{
+  width: 6vh;
+  height: 6vh;
+  border-radius: 3vh;
+  margin-bottom: 5px;
+}
+.face:hover{
+  transform:translateY(-5px);
+}
+
+.email:hover{
+  transform:translateY(-5px);
+}
+
+.twit{
+  width: 6vh;
+  margin-right: 2vh;
+  margin-bottom: 5px;
+}
+.twit:hover{
+  transform:translateY(-5px);
+}
+
+.history{
+  color: white;
+}
+
+.missionimg{
+  border-radius: 10vh;
+  width: 20vh;
+ position: relative;
+ left: 8vh;
+}
+/* .missionimg{
+  border-radius: 10vh;
+  width: 20vh;
+ position: relative;
+ left: 28vh;
+} */
+.mission{
+  width: 60vh !important;
+}
+
+.missionmain{
+  align-items: center;
+  
+}
+
+.notes{
+  background-color: darkblue;
+}
+
+.caro{
+  display: flex !important;
+}
+
+.pdf{
+  width: 100%;
+  height: 400px !important;
+}
+
+embed{
+  width: 100%;
+  height: 400px;
+}
+
+label{
+  color: darkblue;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+input{
+  border: 2px solid black;
+  width: 100%;
+}
+.but{
+  display: flex;
+  justify-content: space-between;
+  
+}
+button{
+  background-color: darkblue;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight:900;
+  color: white; 
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.bg-dark {
+  --bs-bg-opacity: none;
+  
+}
+
+.error{
+  color: white;
+}
+
+.dropdown-menu{
+  background-color: rgb(51, 6, 250);
+  border-radius: 20px;
+  border: 2px solid black;
+  
+}
+
+.Fees{
+  position: relative;
+  left: 18px !important;
+}
+
+a {
+ color: white;
+  text-decoration: none;
+}
+.Historybackg{
+  background-color: rgb(97, 97, 207) !important;
+  color: black;
+}
+
+.acce{
+  position: relative;
+  left: 2vh;
+
+}
+
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  position: relative;
+
+}
+
+.accra{
+  position: relative;
+  left: 5vh;
+}
+
+
+
+/* @media (min-width: 992px)
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+} */
+
+
